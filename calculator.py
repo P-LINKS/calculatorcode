@@ -1,5 +1,7 @@
 #calculator code start from  calculation function
 def calculator():
+    # take input from user for calculation
+    
     x = float(input("Enter 1st value  "))
     operater= input("please select operater (+,-,*,/)")
     y = float(input("Enter2nd Value "))
