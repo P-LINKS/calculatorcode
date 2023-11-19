@@ -22,7 +22,7 @@ def calculator():
     else:
       print('invalid input' )
     return result
-  
+  #call function 
 result=calculator()
 if result is not None:
   print("Result" , result)
