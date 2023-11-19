@@ -3,24 +3,24 @@ def calculator():
     # take input from user for calculation
     
     x = float(input("Enter 1st value  "))
-    operater= input("please select operater (+,-,*,/)")
+    operator= input("please select operater (+,-,*,/)")
     y = float(input("Enter2nd Value "))
 
 #define operater function
-    if operator ='+':
+    if operator =='+':
       result = X + y
-    elif operator ='-':
+    elif operator =='-':
       result = x- y
-    elif operator = '*':
+    elif operator == '*':
       result = x * y
-    elif operator = '/':
+    elif operator == '/':
       if y !=0:
         result =x / y
       else:
-        print( Error; divisional error )
-        return none
+        print( 'Error: divisional error' )
+        return None
     else:
-      print(invalid input )
+      print('invalid input' )
 
 result=calculator()
 
