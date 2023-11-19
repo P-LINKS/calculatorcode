@@ -8,7 +8,7 @@ def calculator():
 
 #define operater function
     if operator =='+':
-      result = X + y
+      result = x + y
     elif operator =='-':
       result = x- y
     elif operator == '*':
@@ -21,7 +21,8 @@ def calculator():
         return None
     else:
       print('invalid input' )
-
+    return result
+  
 result=calculator()
-
-print(result)
+if result is not None:
+  print("Result" , result)
